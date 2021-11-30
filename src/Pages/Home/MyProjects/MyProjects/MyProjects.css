@@ -1,0 +1,12 @@
+.project-title{
+ position: relative;   
+}
+
+.project-title:after{
+    content:'';
+    display:block;
+    position: absolute;
+    border:2px solid #3A023B;
+    width: 50px;
+    
+}

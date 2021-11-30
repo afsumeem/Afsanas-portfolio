@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "101",
+    "picture1": "https://i.ibb.co/8c4pw2y/niche-Product.jpg",
+    "picture2": "",
+    "picture3": "",
+    "picture4": "",
+    "picture5": "",
+    "name": "The Fragrance Shop",
+    "technology": "React.JS, Node.JS, Express,MongoDB, React Bootstrap, React-Router, Heroku, CSS, Stripe, Firebase Authentication",
+    "liveSite": "https://fragrance-shop.web.app/home",
+    "githubClient": "https://github.com/afsumeem/niche-product-client-side",
+    "githubServer": "https://github.com/afsumeem/niche-product-server-side"
+  },
+  {
+    "_id": "102",
+    "picture1": "https://i.ibb.co/6mCcRF7/holiday-Planner.jpg",
+    "picture2": "",
+    "picture3": "",
+    "picture4": "",
+    "picture5": "",
+    "name": "Holiday Planner",
+    "technology": "React.JS, Node.JS, Express,MongoDB, React Bootstrap, React-Router, Heroku, CSS, Firebase Authentication",
+    "liveSite": "https://holiday-planner-29768.web.app/home",
+    "githubClient": "https://github.com/afsumeem/holiday-planner-client-side",
+    "githubServer": "https://github.com/afsumeem/holiday-planner-server-side"
+  },
+  {
+    "_id": "103",
+    "picture1": "https://i.ibb.co/KNsXmhF/healside.jpg",
+    "picture2": "",
+    "picture3": "",
+    "picture4": "",
+    "picture5": "",
+    "name": "Healside Healthcare",
+    "technology": "React.JS, React Bootstrap, React-Router, CSS, Firebase Authentication",
+    "liveSite": "https://healside-healthcare.netlify.app/",
+    "githubClient": "https://github.com/afsumeem/healside-heathcare"
+  },
+  {
+    "_id": "104",
+    "picture1": "https://i.ibb.co/dW64zSz/canvas-Creation.jpg",
+    "picture2": "",
+    "picture3": "",
+    "picture4": "",
+    "picture5": "",
+    "name": "Canvas Creation",
+    "technology": "React.JS, React Bootstrap, React-Router, CSS",
+    "liveSite": "https://canvas-creation.netlify.app/home",
+    "githubClient": "https://github.com/afsumeem/canvas-creation"
+  }
+]
