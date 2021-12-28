@@ -21,7 +21,7 @@ const Navigation = () => {
 
                         <NavLink to="/blog" className="text-decoration-none fs-5 text-white m-2 menu-item">Blog</NavLink>
 
-                        <HashLink to="/home#contact" className="text-decoration-none fs-5 text-white m-2 menu-item">Contact</HashLink>
+                        <HashLink smooth to="/home#contact" className="text-decoration-none fs-5 text-white m-2 menu-item">Contact</HashLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

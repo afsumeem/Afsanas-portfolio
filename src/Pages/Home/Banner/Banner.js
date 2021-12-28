@@ -35,7 +35,7 @@ const Banner = () => {
 
                                 />
                             </h5>
-                            <Button variant="outline-info" className="mb-2" onClick={alert}>
+                            <Button variant="outline-info" className="mb-2">
                                 <a className="text-decoration-none button-title" href="./Afsana Meem(resume).pdf " download> Download Resume</a>
                             </Button><br />
                             <div className="ms-2">

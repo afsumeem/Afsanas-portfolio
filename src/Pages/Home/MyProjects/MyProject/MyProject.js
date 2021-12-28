@@ -12,30 +12,33 @@ const MyProject = ({ project }) => {
             <Card >
                 <Card.Img variant="top" src={picture1} className="img-fluid " />
                 <Card.Body>
-                    <Card.Title>{name}</Card.Title>
+                    <Card.Title className="my-3 fw-bold">{name}</Card.Title>
                     <Card.Text className="text-start">
                         <span className="fw-bold"> TECHNOLOGIES: </span>
                         {technology}
                     </Card.Text>
-
-                    <Button variant="outline-primary" className="m-1">
-                        <a href={liveSite} target="blank" className="text-decoration-none text-dark fw-bold">Live Site</a>
-                    </Button>
-                    <Button variant="outline-primary" className="m-1">
-                        <a href={githubClient} className="text-decoration-none text-dark fw-bold" target="blank">Github Client</a>
-                    </Button>
-
-                    <Button variant="outline-info" className="m-1">
-                        <a href={githubServer} className="text-decoration-none text-dark fw-bold" target="blank">Github Server</a>
-                    </Button>
-
+                    <a href={liveSite} target="blank" className="text-decoration-none text-dark fw-bold">
+                        <Button variant="light" style={{ border: '1px solid #3A023B' }} className="m-1">
+                            Live Site
+                        </Button>
+                    </a>
+                    <a href={githubClient} target="blank" className="text-decoration-none text-dark fw-bold">
+                        <Button variant="light" style={{ border: '1px solid #3A023B' }} className="m-1">
+                            Github Client
+                        </Button>
+                    </a>
+                    <a href={githubServer} target="blank" className="text-decoration-none text-dark fw-bold">
+                        <Button variant="light" style={{ border: '1px solid #3A023B' }} className="m-1">
+                            Github Server
+                        </Button>
+                    </a>
                 </Card.Body>
-
-                <Button className="w-100 p-2" style={{ backgroundColor: '#3A023B' }} >
-                    <Link to={`/project/${_id}`} className="text-decoration-none text-white">
+                <Link to={`/project/${_id}`} className="text-decoration-none text-white">
+                    <Button className="w-100 p-2" style={{ backgroundColor: '#3A023B' }} >
                         See Details
-                    </Link>
-                </Button>
+                    </Button>
+                </Link>
+
             </Card>
         </Col >
 
