@@ -7,12 +7,99 @@ import 'aos/dist/aos.css';
 import { Button } from 'react-bootstrap';
 import bannerImg from '../../../image/meem.jpg'
 import { Typewriter } from 'react-simple-typewriter'
+import Particles from "react-tsparticles";
 AOS.init();
 
 const Banner = () => {
 
+    const particlesInit = (main) => {
+        console.log(main);
+    };
+
+    const particlesLoaded = (container) => {
+        console.log(container);
+    };
+
     return (
         <div className="text-start banner">
+            <Particles
+                id="tsparticles"
+                init={particlesInit}
+                loaded={particlesLoaded}
+                options={{
+
+                    fpsLimit: 80,
+                    interactivity: {
+                        events: {
+                            onClick: {
+                                enable: true,
+                                mode: "bubble",
+                            },
+                            onHover: {
+                                enable: true,
+                                mode: "repulse",
+                            },
+                            resize: true,
+                        },
+                        modes: {
+                            bubble: {
+                                distance: 100,
+                                duration: 2,
+                                opacity: 0.5,
+                                size: 40,
+                            },
+                            push: {
+                                quantity: 4,
+                            },
+                            repulse: {
+                                distance: 60,
+                                duration: 0.4,
+                            },
+                        },
+                    },
+                    particles: {
+                        color: {
+                            value: "#5F5F5F",
+                        },
+                        links: {
+                            color: "#5F5F5F",
+                            distance: 100,
+                            enable: false,
+                            opacity: 0.5,
+                            width: 1,
+                        },
+                        collisions: {
+                            enable: true,
+                        },
+                        move: {
+                            direction: "bottom",
+                            enable: true,
+                            outMode: "bounce",
+                            random: true,
+                            speed: 2,
+                            straight: false,
+                        },
+                        number: {
+                            density: {
+                                enable: true,
+                                area: 600,
+                            },
+                            value: 150,
+                        },
+                        opacity: {
+                            value: 0.5,
+                        },
+                        shape: {
+                            type: "square",
+                        },
+                        size: {
+                            random: true,
+                            value: 5,
+                        },
+                    },
+                    detectRetina: true,
+                }}
+            />
             <div className="container mb-5">
 
                 <div className="row mt-5 banner-section">
@@ -20,7 +107,7 @@ const Banner = () => {
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine">
 
-                        <div className="ps-5 pt-5">
+                        <div className=" banner-content text-white">
                             <p className="fs-5">Hello I'm</p>
                             <h1 className="mb-4 banner-title">AFSANA MEEM</h1>
                             <h5 className="mb-4">CREATIVE
@@ -63,7 +150,7 @@ const Banner = () => {
 
                 </div>
             </div>
-            <div className="break mb-5"></div>
+
         </div>
     );
 };

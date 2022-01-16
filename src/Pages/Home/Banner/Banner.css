@@ -1,46 +1,26 @@
 .banner{
-    /* height: 100vh; */
-    background-color: rgb(255, 232, 245);
+    height: 100vh;
+    background-color: rgb(9, 9, 9);
 }
 .banner-section{
     margin-top: 150px;
 }
 
+.banner-image{
+
+box-shadow: rgb(38, 38, 38) 0px 2px 4px 0px, rgb(36, 36, 36) 0px 2px 16px 0px;
+}
+
 .banner-title{
-color: #3A023B;
+color: #ffffff;
+
+}
+
+.banner-content{
+    margin-top: 150px;
 }
 
 .button-title{
-    color: #3A023B;
+    color: #ffffff;
 }
 
-.break{
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    border: 1px solid #3A023B;
-    margin:auto;
-    position: relative;
-}
-
-.break:before{
-content: "";
-display:block;
-width: 200px;
-height:1px;
-background: #3A023B;
-position: absolute;
-left: 30px;
-top: 50%;
-}
-
-.break:after{
-content: "";
-display:block;
-width: 200px;
-height:1px;
-background: #3A023B;
-position: absolute;
-right: 30px;
-top: 50%;
-}
