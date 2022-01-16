@@ -1,14 +1,17 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './Banner.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Button } from 'react-bootstrap';
-import bannerImg from '../../../image/meem.jpg'
+import bannerImg from '../../../image/Inkedmeem_LI.jpg'
 import { Typewriter } from 'react-simple-typewriter'
 import Particles from "react-tsparticles";
-AOS.init();
+AOS.init({
+    delay: 0,
+    duration: 1000,
+});
 
 const Banner = () => {
 
@@ -108,7 +111,7 @@ const Banner = () => {
                         data-aos-easing="ease-in-sine">
 
                         <div className=" banner-content text-white">
-                            <p className="fs-5">Hello I'm</p>
+                            <p className="fs-5">Hello, I'm</p>
                             <h1 className="mb-4 banner-title">AFSANA MEEM</h1>
                             <h5 className="mb-4">CREATIVE
                                 <Typewriter
@@ -122,18 +125,30 @@ const Banner = () => {
 
                                 />
                             </h5>
-                            <Button variant="outline-info" className="mb-2">
+                            <Button variant="none" className="mb-2 resume-button">
                                 <a className="text-decoration-none button-title" href="./Afsana Meem(resume).pdf " download> Download Resume</a>
                             </Button><br />
-                            <div className="ms-2">
-                                <a href="https://github.com/afsumeem" className="mx-2 fs-3 text-dark" target="blank">
-                                    <FontAwesomeIcon icon={faGithub} />
+                            <div className='ms-2'>
+                                <a href="https://github.com/afsumeem" className="mx-2 fs-3 text-white" target="blank">
+                                    <FontAwesomeIcon icon={faGithub}
+                                        data-aos="fade-right"
+                                        data-aos-offset="300"
+                                        data-aos-easing="ease-in-sine"
+                                    />
                                 </a>
                                 <a href="https://www.linkedin.com/in/afsana-meem-a8a7b3148/" className="mx-2 fs-3 text-info" target="blank">
-                                    <FontAwesomeIcon icon={faLinkedin} />
+                                    <FontAwesomeIcon icon={faLinkedin}
+                                        data-aos="fade-up"
+                                        data-aos-offset="300"
+                                        data-aos-easing="ease-in-sine"
+                                    />
                                 </a>
                                 <a href="https://web.facebook.com/afsana.meembd/" className="mx-2 fs-3 text-primary" target="blank">
-                                    <FontAwesomeIcon icon={faFacebook} />
+                                    <FontAwesomeIcon icon={faFacebook}
+                                        data-aos="fade-left"
+                                        data-aos-offset="300"
+                                        data-aos-easing="ease-in-sine"
+                                    />
                                 </a>
                             </div>
                         </div>
@@ -142,9 +157,10 @@ const Banner = () => {
                     <div className="col-md-5 col-sm-12 col-xs-12 m-0 p-0">
                         <div data-aos="fade-left"
                             data-aos-offset="300"
-                            data-aos-easing="ease-in-sine">
+                            data-aos-easing="ease-in-sine"
+                        >
 
-                            <img src={bannerImg} alt="bannerImage" className="mt-5 img-fluid d-block mx-auto banner-image rounded-circle w-100" />
+                            <img src={bannerImg} alt="bannerImage" className="img-fluid d-block mx-auto banner-image rounded-circle w-100" />
                         </div>
                     </div>
 
