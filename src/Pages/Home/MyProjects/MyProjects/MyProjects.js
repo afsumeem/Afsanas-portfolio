@@ -19,7 +19,7 @@ const MyProjects = () => {
         <div className="container">
 
             <div className="project-header my-5">
-                <h3 className="project-title text-start">MY PROJECTS</h3>
+                <h3 className="section-title text-start">MY PROJECTS</h3>
             </div>
 
             <div className="project-details">

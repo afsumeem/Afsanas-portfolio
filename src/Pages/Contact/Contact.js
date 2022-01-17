@@ -15,7 +15,7 @@ function Contact() {
     return (
         <div id="contact" className="container mb-5">
             <div className="text-start my-5">
-                <h3 className="contact-form-title">CONTACT</h3>
+                <h3 className="section-title">CONTACT</h3>
             </div>
             <div className="row">
                 <form onSubmit={handleSubmit} className=" ms-start col-md-6">

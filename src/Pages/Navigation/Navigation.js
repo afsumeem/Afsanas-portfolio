@@ -2,13 +2,18 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import './Navigation.css'
+import './Navigation.css';
+import logo from "../../image/images.png"
 
 const Navigation = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" className="fixed-top" style={{ 'backgroundColor': '#000000', 'boxShadow': "rgb(21, 21, 21) 0px 25px 20px -20px" }}>
+        <Navbar collapseOnSelect expand="lg" className="fixed-top" style={{ 'backgroundColor': '#000000', 'boxShadow': "rgba(59, 59, 59, 0.35) 0px -50px 36px -28px inset" }}>
             <Container>
-                <Navbar.Brand href="#home" className="nav-title text-center text-white">AFSANA MEEM</Navbar.Brand>
+
+                <Navbar.Brand href="#home" className="nav-title"><img src={logo} alt=""
+                    style={{ "height": "60px", "width": "60" }}
+                /></Navbar.Brand>
+
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -24,8 +29,8 @@ const Navigation = () => {
                         <HashLink smooth to="/home#contact" className="text-decoration-none fs-5 m-2 menu-item">Contact</HashLink>
                     </Nav>
                 </Navbar.Collapse>
-            </Container>
-        </Navbar>
+            </Container >
+        </Navbar >
     );
 };
 

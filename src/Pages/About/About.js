@@ -26,7 +26,7 @@ const About = () => {
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine"
                 >
-                    <h3 className="about-me-title mb-5">ABOUT ME</h3>
+                    <h3 className="section-title mb-5">ABOUT ME</h3>
                     <p className="text-white">I’m Afsana Meem, a professional and Creative Web Designer with front end development skills.
                         I develop websites with HTML, CSS, JavaScript, React.JS.
                         <br /><br />

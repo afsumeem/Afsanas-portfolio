@@ -1,0 +1,32 @@
+.skills{
+    background-color: rgb(237, 237, 237);
+    border-radius: 5%;
+    border:1px dotted #74287b;
+    min-height: 150px;
+    width: 130px;
+    margin: auto;
+    z-index: 1;
+}
+
+.flip-front{
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-front {
+  transform: rotateY(360deg);
+}
+
+.skills img{
+    padding: 20px;
+    width: 70%;
+    height:100px;
+    display: block;
+    margin: auto;
+}
+
+.skills h5{
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #74287b;
+}

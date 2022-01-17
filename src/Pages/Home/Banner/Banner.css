@@ -9,17 +9,17 @@ margin-top: 80px;
 }
 
 .resume-button{
-    border: 1px solid #563af3;
+    border: 1px solid #74287b;
 }
 .resume-button:hover{
-    background-color: #563af3;
+    background-color: #74287b;
 }
 .resume-button:hover .button-title{
     color: white;
 }
 
 .banner-title{
-color: #563af3;
+color: #74287b;
 font-size: 65px;
 font-weight: 600;
 }

@@ -1,0 +1,41 @@
+.myProject-details{
+position: relative;
+
+}
+.myProject-thumbnail{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.myProject-hover-detail{
+  position: absolute; 
+  bottom: 0; 
+  background-color: rgba(28, 1, 28, 0.619);
+  color: #f1f1f1; 
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.myProject-details:hover .myProject-hover-detail{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.myProject-button button{
+   color: rgb(0, 0, 0);
+   font-weight: 800;
+   font-size: 17px;
+}
+.myProject-button:hover{
+   background-color: #320037;
+}
+
+.myProject-button:hover button{
+   color: white;
+}

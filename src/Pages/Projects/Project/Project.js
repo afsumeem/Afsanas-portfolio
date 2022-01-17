@@ -1,12 +1,14 @@
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import "./Project.css"
 
 const Project = ({ allProject }) => {
     const { _id, name, picture1, technology, liveSite, githubClient, githubServer } = allProject;
+
     return (
         <Col xs={12} sm={6} md={4}>
-            <Card >
+            <Card className='myProjects bg-dark'>
                 <Card.Img variant="top" src={picture1} className="img-fluid " />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
