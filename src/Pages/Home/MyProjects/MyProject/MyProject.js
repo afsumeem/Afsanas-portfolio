@@ -24,13 +24,12 @@ const MyProject = ({ project }) => {
 
                         <Card.Title className="mt-5 mb-3">
                             <Link to={liveSite} className="text-decoration-none"
-                                style={{ "fontSize": "30px", "fontWeight": "600", "color": "white" }}
-                            >
+                                style={{ "fontSize": "30px", "fontWeight": "600", "color": "white" }}>
                                 {name}
                             </Link>
                         </Card.Title>
 
-                        <Button onClick={handleShow} className="w-50 p-2" style={{ "color": "#320037", "fontWeight": "600", "border": "1px solid #320037" }} >
+                        <Button onClick={handleShow} variant='none' className="w-50 p-2 mt-4 detail-button" >
                             View Details
                         </Button>
                     </Card.Body >
