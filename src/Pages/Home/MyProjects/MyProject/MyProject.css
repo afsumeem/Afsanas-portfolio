@@ -1,11 +1,11 @@
 .myProject-details{
 position: relative;
-
 }
+
 .myProject-thumbnail{
   display: block;
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 .myProject-hover-detail{
@@ -26,14 +26,13 @@ position: relative;
     cursor: pointer;
 }
 
-
 .myProject-button button{
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
    font-weight: 800;
    font-size: 17px;
 }
-.myProject-button:hover{
-   background-color: #320037;
+.myProject-button{
+    background-color: #320037;
 }
 
 .myProject-button:hover button{

@@ -16,8 +16,7 @@ const MyProjects = () => {
 
 
     return (
-        <div className="container">
-
+        <div className="container pt-5">
             <div className="project-header my-5">
                 <h3 className="section-title text-start">MY PROJECTS</h3>
             </div>

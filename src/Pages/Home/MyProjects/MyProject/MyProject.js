@@ -16,7 +16,6 @@ const MyProject = ({ project }) => {
     return (
 
         <Col xs={12} sm={6} md={4}>
-
             <Card >
                 <div className='myProject-details'>
                     <Card.Img variant="top" src={picture1} className="img-fluid myProject-thumbnail" />
@@ -24,21 +23,16 @@ const MyProject = ({ project }) => {
                     <Card.Body className='myProject-hover-detail'>
 
                         <Card.Title className="mt-5 mb-3">
-                            <Link to={`/project/${_id}`} className="text-decoration-none"
-                                style={{ "fontSize": "35px", "fontWeight": "600", "color": "white" }}
+                            <Link to={liveSite} className="text-decoration-none"
+                                style={{ "fontSize": "30px", "fontWeight": "600", "color": "white" }}
                             >
                                 {name}
                             </Link>
                         </Card.Title>
 
-                        <Button onClick={handleShow} className="w-50 p-2" style={{ "backgroundColor": "white", "color": "#320037", "fontWeight": "600", "border": "1px solid #320037" }} >
+                        <Button onClick={handleShow} className="w-50 p-2" style={{ "color": "#320037", "fontWeight": "600", "border": "1px solid #320037" }} >
                             View Details
                         </Button>
-
-
-
-
-
                     </Card.Body >
                 </div>
 
@@ -109,24 +103,29 @@ const MyProject = ({ project }) => {
                             </Modal.Body>
 
                             <Modal.Footer >
+                                <Link to={liveSite} target="blank" className="text-decoration-none myProject-button">
+                                    <Button variant="none" className="border-0 me-auto text-white">
+                                        Live Preview
+                                    </Button>
+                                </Link>
+
                                 <Link to={githubClient} target="blank" className="text-decoration-none myProject-button me-auto">
                                     <Button variant="none" className='text-white'>
                                         <FontAwesomeIcon icon={faGithub} className='me-1' />
                                         Github Client
                                     </Button>
                                 </Link>
+                                {
+                                    githubServer &&
 
-                                <Link to={githubServer} target="blank" className="text-decoration-none myProject-button me-auto text-white">
-                                    <Button variant="none" className='text-white'>
-                                        <FontAwesomeIcon icon={faGithub} className='me-1' />
-                                        Github Server
-                                    </Button>
-                                </Link>
-                                <Link to={liveSite} target="blank" className="text-decoration-none  myProject-button">
-                                    <Button variant="none" className="border-0 me-auto text-white">
-                                        Live Preview
-                                    </Button>
-                                </Link>
+                                    <Link to={githubServer} target="blank" className="text-decoration-none myProject-button me-auto text-white">
+                                        <Button variant="none" className='text-white'>
+                                            <FontAwesomeIcon icon={faGithub} className='me-1' />
+                                            Github Server
+                                        </Button>
+                                    </Link>
+
+                                }
                             </Modal.Footer>
                         </Col>
                     </Row>
