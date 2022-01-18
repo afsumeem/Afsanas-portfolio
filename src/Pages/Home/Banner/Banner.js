@@ -10,7 +10,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import Particles from "react-tsparticles";
 AOS.init({
     delay: 0,
-    duration: 1000,
+    duration: 500
 });
 
 const Banner = () => {
@@ -106,9 +106,7 @@ const Banner = () => {
             <div className="container mb-5">
 
                 <div className="row mt-5 banner-section">
-                    <div className="col-md-7 mt-5 col-sm-12 col-xs-12 " data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine">
+                    <div className="col-md-7 mt-5 col-sm-12 col-xs-12">
 
                         <div className=" banner-content text-white">
                             <p className="fs-5">Hello, I'm</p>
