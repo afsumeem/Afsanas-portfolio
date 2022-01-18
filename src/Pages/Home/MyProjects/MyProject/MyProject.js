@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { Card, Col, Button, Modal, Row, Container, Carousel } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import "./MyProject.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const MyProject = ({ project }) => {
 
-    const { _id, name, picture1, technology, desc, picture2, picture3, picture4, liveSite, githubClient, githubServer } = project;
+    const { name, picture1, technology, desc, picture2, picture3, picture4, liveSite, githubClient, githubServer } = project;
 
     const [show, setShow] = useState(false);
     const handleShow = () => setShow(true);
@@ -23,24 +22,24 @@ const MyProject = ({ project }) => {
                     <Card.Body className='myProject-hover-detail'>
 
                         <Card.Title className="mt-5 mb-3">
-                            <Link to={liveSite} className="text-decoration-none"
+                            <a href={liveSite} target='blank' className="text-decoration-none"
                                 style={{ "fontSize": "30px", "fontWeight": "600", "color": "white" }}>
                                 {name}
-                            </Link>
+                            </a>
                         </Card.Title>
 
-                        <Button onClick={handleShow} variant='none' className="w-50 p-2 mt-4 detail-button" >
+                        <Button onClick={handleShow} variant='white' className="w-50 p-2 mt-4 detail-button" >
                             View Details
                         </Button>
                     </Card.Body >
                 </div>
 
                 <Card.Footer className='myProject-button'>
-                    <Link to={liveSite} target="blank" className="text-decoration-none  ">
+                    <a href={liveSite} target="blank" className="text-decoration-none  ">
                         <Button variant="none" className="w-100 border-0">
                             Live Preview
                         </Button>
-                    </Link>
+                    </a>
                 </Card.Footer>
 
             </Card >
@@ -102,27 +101,27 @@ const MyProject = ({ project }) => {
                             </Modal.Body>
 
                             <Modal.Footer >
-                                <Link to={liveSite} target="blank" className="text-decoration-none myProject-button">
+                                <a href={liveSite} target="blank" className="text-decoration-none myProject-button">
                                     <Button variant="none" className="border-0 me-auto text-white">
                                         Live Preview
                                     </Button>
-                                </Link>
+                                </a>
 
-                                <Link to={githubClient} target="blank" className="text-decoration-none myProject-button me-auto">
+                                <a href={githubClient} target="blank" className="text-decoration-none myProject-button me-auto">
                                     <Button variant="none" className='text-white'>
                                         <FontAwesomeIcon icon={faGithub} className='me-1' />
                                         Github Client
                                     </Button>
-                                </Link>
+                                </a>
                                 {
                                     githubServer &&
 
-                                    <Link to={githubServer} target="blank" className="text-decoration-none myProject-button me-auto text-white">
+                                    <a href={githubServer} target="blank" className="text-decoration-none myProject-button me-auto text-white">
                                         <Button variant="none" className='text-white'>
                                             <FontAwesomeIcon icon={faGithub} className='me-1' />
                                             Github Server
                                         </Button>
-                                    </Link>
+                                    </a>
 
                                 }
                             </Modal.Footer>

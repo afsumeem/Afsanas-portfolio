@@ -29,6 +29,7 @@ position: relative;
 .myProject-hover-detail button{ 
    color: white;
    font-weight: 800;
+   background-color: none;
    border: 1px solid white;
 }
 

@@ -2,10 +2,9 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { Button, Card, Carousel, Col, Container, Modal, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 
 const Project = ({ allProject }) => {
-    const { _id, name, picture1, technology, desc, picture2, picture3, picture4, liveSite, githubClient, githubServer } = allProject;
+    const { name, picture1, technology, desc, picture2, picture3, picture4, liveSite, githubClient, githubServer } = allProject;
 
     const [show, setShow] = useState(false);
     const handleShow = () => setShow(true);
@@ -19,32 +18,26 @@ const Project = ({ allProject }) => {
                     <Card.Body className='myProject-hover-detail'>
 
                         <Card.Title className="mt-5 mb-3">
-                            <Link to={`/project/${_id}`} className="text-decoration-none"
+                            <a href={liveSite} target='blank' className="text-decoration-none"
                                 style={{ "fontSize": "35px", "fontWeight": "600", "color": "white" }}
                             >
                                 {name}
-                            </Link>
+                            </a>
                         </Card.Title>
 
-                        <Button onClick={handleShow} className="w-50 p-2" style={{ "backgroundColor": "white", "color": "#320037", "fontWeight": "600", "border": "1px solid #320037" }} >
+                        <Button onClick={handleShow} variant='white' className="w-50 p-2 mt-4 detail-button" >
                             View Details
                         </Button>
-
-
-
-
-
                     </Card.Body >
                 </div>
 
                 <Card.Footer className='myProject-button'>
-                    <Link to={liveSite} target="blank" className="text-decoration-none  ">
+                    <a href={liveSite} target="blank" className="text-decoration-none  ">
                         <Button variant="none" className="w-100 border-0">
                             Live Preview
                         </Button>
-                    </Link>
+                    </a>
                 </Card.Footer>
-
             </Card >
 
             <Modal
@@ -105,27 +98,27 @@ const Project = ({ allProject }) => {
 
                             <Modal.Footer >
 
-                                <Link to={liveSite} target="blank" className="text-decoration-none  myProject-button">
+                                <a href={liveSite} target="blank" className="text-decoration-none  myProject-button">
                                     <Button variant="none" className="border-0 me-auto text-white">
                                         Live Preview
                                     </Button>
-                                </Link>
-                                <Link to={githubClient} target="blank" className="text-decoration-none myProject-button me-auto">
+                                </a>
+                                <a href={githubClient} target="blank" className="text-decoration-none myProject-button me-auto">
                                     <Button variant="none" className='text-white'>
                                         <FontAwesomeIcon icon={faGithub} className='me-1' />
                                         Github Client
                                     </Button>
-                                </Link>
+                                </a>
 
                                 {
                                     githubServer &&
 
-                                    <Link to={githubServer} target="blank" className="text-decoration-none myProject-button me-auto text-white">
+                                    <a href={githubServer} target="blank" className="text-decoration-none myProject-button me-auto text-white">
                                         <Button variant="none" className='text-white'>
                                             <FontAwesomeIcon icon={faGithub} className='me-1' />
                                             Github Server
                                         </Button>
-                                    </Link>
+                                    </a>
 
                                 }
 
