@@ -14,6 +14,7 @@ import tailwindLogo from "../../../image/skills/pluginIcon.png";
 import material from "../../../image/skills/material.png";
 import "./Skills.css";
 
+
 const Skills = () => {
     return (
         <Container className='pt-5'>
@@ -23,7 +24,6 @@ const Skills = () => {
 
             <Row g={5} className='mb-3'
                 style={{ "paddingLeft": "100px", "paddingRight": "100px" }}
-
             >
                 <Col md={2} sm={6} xs={12} className='flip-card'>
                     <div className='skills mb-2 flip-card-inner'>

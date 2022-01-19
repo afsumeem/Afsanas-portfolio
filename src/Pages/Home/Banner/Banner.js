@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faGoogleDrive, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './Banner.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -9,7 +9,7 @@ import bannerImg from '../../../image/Inkedmeem_LI.jpg'
 import { Typewriter } from 'react-simple-typewriter'
 import Particles from "react-tsparticles";
 AOS.init({
-    duration: 500
+    duration: 1000
 });
 
 const Banner = () => {
@@ -125,26 +125,40 @@ const Banner = () => {
                                 />
                             </h5>
                             <Button variant="none" className="mb-2 resume-button">
-                                <a className="text-decoration-none button-title" href="./Afsana Meem(resume).pdf " download> Download Resume</a>
+
+                                <a className="text-decoration-none button-title" href="https://drive.google.com/uc?export=download&id=1NqJ0zJYUErByxdLrbgqIVSAMFnKks24_" download>
+
+                                    Download Resume
+
+                                </a>
                             </Button><br />
-                            <div className='ms-2'>
-                                <a href="https://github.com/afsumeem" className="mx-2 fs-3 text-white" target="blank">
+
+
+                            <div>
+                                <a href="https://github.com/afsumeem" className="me-2 fs-3 text-white" target="blank" title='Github'>
                                     <FontAwesomeIcon icon={faGithub}
                                         data-aos="fade-right"
                                         data-aos-offset="300"
                                         data-aos-easing="ease-in-sine"
                                     />
                                 </a>
-                                <a href="https://www.linkedin.com/in/afsana-meem-a8a7b3148/" className="mx-2 fs-3 text-info" target="blank">
+                                <a href="https://www.linkedin.com/in/afsanameem/" className="mx-2 fs-3 text-info" target="blank" title='LinkedIn'>
                                     <FontAwesomeIcon icon={faLinkedin}
                                         data-aos="fade-up"
                                         data-aos-offset="300"
                                         data-aos-easing="ease-in-sine"
                                     />
                                 </a>
-                                <a href="https://web.facebook.com/afsana.meembd/" className="mx-2 fs-3 text-primary" target="blank">
+                                <a href="https://web.facebook.com/afsana.meembd/" className="mx-2 fs-3 text-primary" target="blank" title='Facebook'>
                                     <FontAwesomeIcon icon={faFacebook}
                                         data-aos="fade-left"
+                                        data-aos-offset="300"
+                                        data-aos-easing="ease-in-sine"
+                                    />
+                                </a>
+                                <a href="https://drive.google.com/file/d/1NqJ0zJYUErByxdLrbgqIVSAMFnKks24_/view?usp=sharing" className="mx-2 fs-3 text-primary" target="blank" title='Resume Link'>
+                                    <FontAwesomeIcon icon={faGoogleDrive}
+                                        data-aos="fade-up"
                                         data-aos-offset="300"
                                         data-aos-easing="ease-in-sine"
                                     />
@@ -163,7 +177,7 @@ const Banner = () => {
 
                 </Row>
             </Container>
-            <hr className='text-white w-75 d-block m-auto' />
+            <hr className=' w-75 d-block m-auto' />
         </div>
     );
 };
