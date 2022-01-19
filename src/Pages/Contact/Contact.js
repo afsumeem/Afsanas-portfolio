@@ -12,7 +12,8 @@ function Contact() {
     const [state, handleSubmit] = useForm("xjvlbeen");
     if (state.succeeded) {
         swal("Sent!", "Your Message Sent Successfully!", "success");
-    }
+    };
+
 
     return (
         <div id="contact" className="container mb-5">

@@ -6,7 +6,7 @@
     "picture3": "https://i.ibb.co/5nLVh3V/screencapture-color-castle-59013-web-app-2022-01-18-08-45-06.png",
     "picture4": "https://i.ibb.co/3ks1MCq/color2.png",
     "name": "Color Castle",
-    "technology": "React.JS, Node.JS, Express,MongoDB, React Bootstrap, React-Router, Heroku, CSS, Firebase Authentication",
+    "technology": "React.JS, React Bootstrap, React-Router, Node.JS, Express,MongoDB, Heroku, CSS, Firebase Authentication",
     "desc": "On this website, users can Book services after logging in. It is a fully responsive template and build with React.Js. Admin can manage all services, they can add or remove services in Dashboard.",
     "liveSite": "https://color-castle-59013.web.app/",
     "githubClient": "https://github.com/afsumeem/color-castle-client",
@@ -19,7 +19,7 @@
     "picture3": "https://i.ibb.co/YTbQmnB/fr2.png",
     "picture4": "https://i.ibb.co/5MKT1yc/fr3.png",
     "name": "The Fragrance Shop",
-    "technology": "React.JS, Node.JS, Express,MongoDB, React Bootstrap, React-Router, Heroku, CSS, Stripe, Firebase Authentication",
+    "technology": "React.JS, React Bootstrap, React-Router, Node.JS, Express,MongoDB, Heroku, CSS, Stripe, Firebase Authentication",
     "desc": "In this website Implemented a dashboard where the admin can add brands and manage orders by the customers. Users can order products and they can cancel their orders if they want. Implemented a payment method where users can pay for buying products using stripe.",
     "liveSite": "https://fragrance-shop.web.app/home",
     "githubClient": "https://github.com/afsumeem/niche-product-client-side",
@@ -27,6 +27,19 @@
   },
   {
     "_id": "103",
+    "picture1": "https://i.ibb.co/kKKZ8nk/mobile.png",
+    "picture2": "https://i.ibb.co/PD0r13Z/mobile.png",
+    "picture3": "https://i.ibb.co/pnhjCbV/3.png",
+    "picture4": "https://i.ibb.co/HNRG46w/2.png",
+    "name": "T-52 Mobile Zone",
+    "technology": "React.JS, React Bootstrap, React-Router,CSS, Redux, Firebase Authentication, Node.JS, Express, MongoDB, Heroku",
+    "desc": "A complete Mobile Phone selling website with google authentication. Users can order products and manage their orders. And dashboard is available on this website. Worked as a backend developer on this project.",
+    "liveSite": "https://mobile-zone-by-team-52.netlify.app/",
+    "githubClient": "https://github.com/afsumeem/T-52-Mobile-Zone",
+    "githubServer": "https://github.com/afsumeem/T-52-Mobile-Zone-server"
+  },
+  {
+    "_id": "104",
     "picture1": "https://i.ibb.co/SXXgy8F/fragrance-shop.png",
     "picture2": "https://i.ibb.co/0MJKkG5/hp.png",
     "picture3": "https://i.ibb.co/nr3tWzC/hp-Copy.png",
@@ -39,7 +52,7 @@
     "githubServer": "https://github.com/afsumeem/holiday-planner-server-side"
   },
   {
-    "_id": "104",
+    "_id": "105",
     "picture1": "https://i.ibb.co/R0X1Nb6/healside.png",
     "picture2": "https://i.ibb.co/jM6SnVp/hh2-Copy.png",
     "picture3": "https://i.ibb.co/6gbVM1b/hh2.png",
@@ -51,7 +64,7 @@
     "githubClient": "https://github.com/afsumeem/healside-heathcare"
   },
   {
-    "_id": "105",
+    "_id": "106",
     "picture1": "https://i.ibb.co/qM1BY7J/canvas.png",
     "picture2": "https://i.ibb.co/GFMBJ9V/screencapture-canvas-creation-netlify-app-home-2022-01-18-09-42-09.png",
     "picture3": "https://i.ibb.co/NYtBFxZ/canvas.png",
