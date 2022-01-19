@@ -1,6 +1,5 @@
 .banner{
     min-height: 600px;
-    background-color: rgb(9, 9, 9);
 }
 
 .banner-image{
@@ -32,6 +31,12 @@ font-weight: 600;
 .button-title{
     color: #ffffff;
 }
+.particleSection{
+    position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
 
 @media only screen and (max-width: 768px) {
 

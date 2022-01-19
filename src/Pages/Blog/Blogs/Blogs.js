@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import Navigation from '../../Navigation/Navigation';
 import blogOne from '../../../image/react.png';
 import blogTwo from '../../../image/crud.png';
@@ -28,7 +28,9 @@ const Blogs = () => {
                             </Card.Body>
                             <Card.Footer className=' border-top'>
                                 <NavLink to="/reactDetails" className="text-decoration-none text-white">
-                                    <small className="">View Details</small>
+                                    <Button variant="none" className='w-100 text-white'>
+                                        View Details
+                                    </Button>
                                 </NavLink>
 
                             </Card.Footer>
@@ -45,8 +47,12 @@ const Blogs = () => {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className='border-top'>
+
                                 <NavLink to="/crudDetails" className="text-decoration-none text-white">
-                                    <small className="">View Details</small>
+                                    <Button variant="none" className='w-100 text-white'>
+                                        View Details
+                                    </Button>
+
                                 </NavLink>
                             </Card.Footer>
                         </Card>

@@ -4,7 +4,7 @@ import image from "../../image/image.png";
 
 const About = () => {
     return (
-        <div id="about" className="container about-me-section text-start mt-4">
+        <div id="about" className="container about-me-section text-start mt-5">
             <div className="row about-me">
                 <div className="col-md-6">
                     <img src={image} alt="aboutImage" className='img-fluid' />
