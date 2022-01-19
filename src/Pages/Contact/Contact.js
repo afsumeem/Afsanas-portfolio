@@ -6,6 +6,7 @@ import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-i
 import { Button, Form, Row } from 'react-bootstrap';
 import swal from 'sweetalert';
 import ScrollToTop from "react-scroll-to-top";
+import contactImg from "../../image/contact.svg";
 
 
 function Contact() {
@@ -76,8 +77,14 @@ function Contact() {
                     </Button>
                 </Form>
 
-                <div className="col-md-6 ps-5 mt-5">
-                    <h5 className="pt-4 text-white">Feeling social? Find me on these online spaces too!</h5>
+                <div className="col-md-6 ps-5 mt-2">
+                    <div>
+                        <img src={contactImg} alt="" className=''
+                            style={{ height: "200px", width: "300px" }}
+                        />
+                        <h6 className="pt-2 text-white">Feeling social? Find me on these online spaces too!</h6>
+                    </div>
+
 
                     <div className="ms-2">
                         <a href="https://github.com/afsumeem" className="mx-2 fs-2 text-dark" target="blank">

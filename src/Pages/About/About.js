@@ -1,13 +1,13 @@
 import React from 'react';
 import './About.css';
-import image from "../../image/image.png";
+import aboutImg from "../../image/about.svg"
 
 const About = () => {
     return (
         <div id="about" className="container about-me-section text-start mt-5">
             <div className="row about-me">
                 <div className="col-md-6">
-                    <img src={image} alt="aboutImage" className='img-fluid' />
+                    <img src={aboutImg} alt="aboutImage" className='w-75 d-block m-auto pt-3' />
                 </div>
 
                 <div className="mt-4 col-md-6 ps-4">
