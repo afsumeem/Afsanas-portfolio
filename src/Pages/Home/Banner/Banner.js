@@ -4,7 +4,7 @@ import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-i
 import './Banner.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Button } from 'react-bootstrap';
+import { Button, Container, Row } from 'react-bootstrap';
 import bannerImg from '../../../image/Inkedmeem_LI.jpg'
 import { Typewriter } from 'react-simple-typewriter'
 import Particles from "react-tsparticles";
@@ -14,7 +14,6 @@ AOS.init({
 });
 
 const Banner = () => {
-
     const particlesInit = (main) => {
         console.log(main);
     };
@@ -30,7 +29,6 @@ const Banner = () => {
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={{
-
                     fpsLimit: 80,
                     interactivity: {
                         events: {
@@ -49,7 +47,7 @@ const Banner = () => {
                                 distance: 100,
                                 duration: 2,
                                 opacity: 0.5,
-                                size: 40,
+                                size: 20,
                             },
                             push: {
                                 quantity: 4,
@@ -103,11 +101,9 @@ const Banner = () => {
                     detectRetina: true,
                 }}
             />
-            <div className="container mb-5">
-
-                <div className="row mt-5 banner-section">
+            <Container className="container mb-5">
+                <Row className="mt-5 banner-section">
                     <div className="col-md-7 mt-5 col-sm-12 col-xs-12">
-
                         <div className=" banner-content text-white">
                             <p className="fs-5">Hello, I'm</p>
                             <h1 className="mb-4 banner-title">AFSANA MEEM</h1>
@@ -120,7 +116,6 @@ const Banner = () => {
                                     deleteSpeed={60}
                                     delaySpeed={1000}
                                     words={[" FRONT-END WEB DEVELOPER", " WEB DESIGNER "]}
-
                                 />
                             </h5>
                             <Button variant="none" className="mb-2 resume-button">
@@ -153,18 +148,11 @@ const Banner = () => {
                     </div>
 
                     <div className="col-md-5 col-sm-12 col-xs-12 m-0 p-0">
-                        <div data-aos="fade-left"
-                            data-aos-offset="300"
-                            data-aos-easing="ease-in-sine"
-                        >
-
-                            <img src={bannerImg} alt="bannerImage" className="img-fluid d-block mx-auto banner-image rounded-circle w-100" />
-                        </div>
+                        <img src={bannerImg} alt="bannerImage" className="img-fluid d-block mx-auto banner-image rounded-circle" />
                     </div>
 
-                </div>
-            </div>
-
+                </Row>
+            </Container>
         </div>
     );
 };

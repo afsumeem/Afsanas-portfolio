@@ -5,12 +5,11 @@ import Blogs from './Pages/Blog/Blogs/Blogs';
 import Projects from './Pages/Projects/Projects/Projects';
 import ReactDetails from './Pages/Blog/ReactDetails/ReactDetails';
 import CrudDetails from './Pages/Blog/CrudDetails/CrudDetails';
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 function App() {
   return (
     <div className="App">
-
-
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -21,7 +20,6 @@ function App() {
           <Route path="/crudDetails" element={<CrudDetails />} />
         </Routes>
       </BrowserRouter>
-
     </div>
   );
 }

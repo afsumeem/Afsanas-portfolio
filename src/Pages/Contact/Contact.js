@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Button, Form, Row } from 'react-bootstrap';
 import swal from 'sweetalert';
+import ScrollToTop from "react-scroll-to-top";
 
 
 function Contact() {
-
     const [state, handleSubmit] = useForm("xjvlbeen");
     if (state.succeeded) {
         swal("Sent!", "Your Message Sent Successfully!", "success");
@@ -16,6 +16,9 @@ function Contact() {
 
     return (
         <div id="contact" className="container mb-5">
+            <ScrollToTop smooth top="100" color="white"
+                style={{ "backgroundColor": "black" }}
+            />
             <div className="text-start my-5">
                 <h3 className="section-title">CONTACT</h3>
             </div>
@@ -23,7 +26,7 @@ function Contact() {
                 <Form onSubmit={handleSubmit} className=" ms-start col-md-6">
                     <input
                         placeholder="Your Name"
-                        className="w-75 mx-auto"
+                        className="w-75 mx-auto p-2"
                         id="name"
                         type="text"
                         name="name"
@@ -79,15 +82,15 @@ function Contact() {
                         <a href="https://github.com/afsumeem" className="mx-2 fs-2 text-dark" target="blank">
                             <FontAwesomeIcon icon={faGithub} className='text-white' />
                         </a>
-                        <a href="https://www.linkedin.com/in/afsana-meem-a8a7b3148/" className="mx-2 fs-2 text-info" target="blank">
+                        <a href="https://www.linkedin.com/in/afsanameem/" className="mx-2 fs-2 text-info" target="blank">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
                         <a href="https://web.facebook.com/afsana.meembd/" className="mx-2 fs-2 text-primary" target="blank">
                             <FontAwesomeIcon icon={faFacebook} />
                         </a>
                     </div>
-
                 </div>
+
             </Row>
 
 

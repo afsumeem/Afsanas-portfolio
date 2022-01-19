@@ -10,7 +10,7 @@ const Navigation = () => {
         <Navbar collapseOnSelect expand="lg" className="fixed-top" style={{ 'backgroundColor': '#000000', 'boxShadow': "rgba(59, 59, 59, 0.35) 0px -50px 36px -28px inset" }}>
             <Container>
 
-                <Navbar.Brand href="#home" className="nav-title"><img src={logo} alt=""
+                <Navbar.Brand href="/home" className="nav-title"><img src={logo} alt=""
                     style={{ "height": "60px", "width": "60" }}
                 /></Navbar.Brand>
 
@@ -19,8 +19,6 @@ const Navigation = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                         <NavLink to="/home" className="text-decoration-none fs-5 m-2 menu-item">Home</NavLink>
-
-                        <HashLink smooth to="/home#about" className="text-decoration-none fs-5 m-2  menu-item">About</HashLink>
 
                         <NavLink to="/allProject" className="text-decoration-none fs-5 m-2 menu-item">Projects</NavLink>
 

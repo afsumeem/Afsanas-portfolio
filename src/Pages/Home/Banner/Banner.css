@@ -1,11 +1,12 @@
 .banner{
-    height: 100vh;
+    min-height: 600px;
     background-color: rgb(9, 9, 9);
 }
 
 .banner-image{
 box-shadow: rgb(38, 38, 38) 0px 2px 4px 0px, rgb(36, 36, 36) 0px 2px 16px 0px;
 margin-top: 80px;
+/* width: 100%; */
 }
 
 .resume-button{
@@ -32,3 +33,16 @@ font-weight: 600;
     color: #ffffff;
 }
 
+@media only screen and (max-width: 768px) {
+
+.banner-content{
+    margin-top: 20px;
+}
+
+.banner-image{
+margin-top: 20px;
+height: 400px;
+width: 400px;
+
+}
+}

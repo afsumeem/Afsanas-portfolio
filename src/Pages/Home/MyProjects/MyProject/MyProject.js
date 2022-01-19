@@ -14,7 +14,7 @@ const MyProject = ({ project }) => {
 
     return (
 
-        <Col xs={12} sm={6} md={4}>
+        <Col xs={12} sm={6} md={4} className='mb-2'>
             <Card >
                 <div className='myProject-details'>
                     <Card.Img variant="top" src={picture1} className="img-fluid myProject-thumbnail" />
