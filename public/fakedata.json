@@ -1,32 +1,19 @@
 [
   {
     "_id": "101",
-    "picture1": "https://i.ibb.co/TbJy6XP/clrcastle.png",
-    "picture2": "https://i.ibb.co/QNhTm7q/color.png",
-    "picture3": "https://i.ibb.co/5nLVh3V/screencapture-color-castle-59013-web-app-2022-01-18-08-45-06.png",
-    "picture4": "https://i.ibb.co/3ks1MCq/color2.png",
-    "name": "Color Castle",
-    "technology": "React.JS, React Bootstrap, React-Router, Node.JS, Express,MongoDB, Heroku, CSS, Firebase Authentication",
-    "desc": "On this website, users can Book services after logging in. It is a fully responsive template and build with React.Js. Admin can manage all services, they can add or remove services in Dashboard.",
-    "liveSite": "https://color-castle-59013.web.app/",
-    "githubClient": "https://github.com/afsumeem/color-castle-client",
-    "githubServer": "https://github.com/afsumeem/color-castle-server-side"
+    "picture1": "https://i.ibb.co/pWdD8KP/paintxpress1.png",
+    "picture2": "https://i.ibb.co/pz0kPtt/paintxpress2.png",
+    "picture3": "https://i.ibb.co/pWdD8KP/paintxpress1.png",
+    "picture4": "https://i.ibb.co/ZWKqWbZ/paintxpress3.png",
+    "name": "PaintXpress",
+    "technology": "TypeScript, Next.js, AntDesign, Firebase, Node.js, Express.js, MongoDB.",
+    "desc": "Dynamic Filtering Tools Refine the options based on service categories, Price range. Watch as the webpage dynamically updates, displaying only the services that match the criteria. Experience the beauty of responsive design across all devices. It is meticulously crafted with a mobile-first approach, ensuring a seamless experience on smartphones, tablets, and desktops.",
+    "liveSite": "https://paintxpress-pfsx24x2x-afsumeem.vercel.app/",
+    "githubClient": "https://github.com/afsumeem/paint-xpress",
+    "githubServer": "https://github.com/afsumeem/paintXpress-backend"
   },
   {
     "_id": "102",
-    "picture1": "https://i.ibb.co/hC2cM0J/frag.png",
-    "picture2": "https://i.ibb.co/NCBfD1F/fr.png",
-    "picture3": "https://i.ibb.co/YTbQmnB/fr2.png",
-    "picture4": "https://i.ibb.co/5MKT1yc/fr3.png",
-    "name": "The Fragrance Shop",
-    "technology": "React.JS, React Bootstrap, React-Router, Node.JS, Express,MongoDB, Heroku, CSS, Stripe, Firebase Authentication",
-    "desc": "In this website Implemented a dashboard where the admin can add brands and manage orders by the customers. Users can order products and they can cancel their orders if they want. Implemented a payment method where users can pay for buying products using stripe.",
-    "liveSite": "https://fragrance-shop.web.app/home",
-    "githubClient": "https://github.com/afsumeem/niche-product-client-side",
-    "githubServer": "https://github.com/afsumeem/niche-product-server-side"
-  },
-  {
-    "_id": "103",
     "picture1": "https://i.ibb.co/kKKZ8nk/mobile.png",
     "picture2": "https://i.ibb.co/PD0r13Z/mobile.png",
     "picture3": "https://i.ibb.co/pnhjCbV/3.png",
@@ -38,6 +25,21 @@
     "githubClient": "https://github.com/afsumeem/T-52-Mobile-Zone",
     "githubServer": "https://github.com/afsumeem/T-52-Mobile-Zone-server"
   },
+
+  {
+    "_id": "103",
+    "picture1": "https://i.ibb.co/hC2cM0J/frag.png",
+    "picture2": "https://i.ibb.co/NCBfD1F/fr.png",
+    "picture3": "https://i.ibb.co/YTbQmnB/fr2.png",
+    "picture4": "https://i.ibb.co/5MKT1yc/fr3.png",
+    "name": "The Fragrance Shop",
+    "technology": "React.JS, React Bootstrap, React-Router, Node.JS, Express,MongoDB, Heroku, CSS, Stripe, Firebase Authentication",
+    "desc": "In this website Implemented a dashboard where the admin can add brands and manage orders by the customers. Users can order products and they can cancel their orders if they want. Implemented a payment method where users can pay for buying products using stripe.",
+    "liveSite": "https://fragrance-shop.web.app/home",
+    "githubClient": "https://github.com/afsumeem/niche-product-client-side",
+    "githubServer": "https://github.com/afsumeem/niche-product-server-side"
+  },
+
   {
     "_id": "104",
     "picture1": "https://i.ibb.co/SXXgy8F/fragrance-shop.png",
@@ -65,6 +67,19 @@
   },
   {
     "_id": "106",
+    "picture1": "https://i.ibb.co/TbJy6XP/clrcastle.png",
+    "picture2": "https://i.ibb.co/QNhTm7q/color.png",
+    "picture3": "https://i.ibb.co/5nLVh3V/screencapture-color-castle-59013-web-app-2022-01-18-08-45-06.png",
+    "picture4": "https://i.ibb.co/3ks1MCq/color2.png",
+    "name": "Color Castle",
+    "technology": "React.JS, React Bootstrap, React-Router, Node.JS, Express,MongoDB, Heroku, CSS, Firebase Authentication",
+    "desc": "On this website, users can Book services after logging in. It is a fully responsive template and build with React.Js. Admin can manage all services, they can add or remove services in Dashboard.",
+    "liveSite": "https://color-castle-59013.web.app/",
+    "githubClient": "https://github.com/afsumeem/color-castle-client",
+    "githubServer": "https://github.com/afsumeem/color-castle-server-side"
+  },
+  {
+    "_id": "107",
     "picture1": "https://i.ibb.co/qM1BY7J/canvas.png",
     "picture2": "https://i.ibb.co/GFMBJ9V/screencapture-canvas-creation-netlify-app-home-2022-01-18-09-42-09.png",
     "picture3": "https://i.ibb.co/NYtBFxZ/canvas.png",
