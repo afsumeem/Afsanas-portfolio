@@ -123,7 +123,7 @@ const Banner = () => {
                   typeSpeed={100}
                   deleteSpeed={60}
                   delaySpeed={1000}
-                  words={[" FRONT-END WEB DEVELOPER", " WEB DESIGNER "]}
+                  words={[" FRONT-END WEB DEVELOPER", " React.JS Developer "]}
                 />
               </h5>
               <Button variant="none" className="mb-2 resume-button">

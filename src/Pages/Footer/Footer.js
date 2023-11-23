@@ -63,7 +63,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://drive.google.com/file/d/1YkE-tLSsm_fT6E9geCdMgtemNGFdc9yB/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1XcGtGLFfNVXp8ytUNvVnmD_UvlApmEzv/view?usp=sharing"
             className="mx-2 fs-5 text-primary"
             target="blank"
             title="Resume Link"

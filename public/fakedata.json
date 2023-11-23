@@ -8,7 +8,7 @@
     "name": "PaintXpress",
     "technology": "TypeScript, Next.js, AntDesign, Firebase, Node.js, Express.js, MongoDB.",
     "desc": "Dynamic Filtering Tools Refine the options based on service categories, Price range. Watch as the webpage dynamically updates, displaying only the services that match the criteria. Experience the beauty of responsive design across all devices. It is meticulously crafted with a mobile-first approach, ensuring a seamless experience on smartphones, tablets, and desktops.",
-    "liveSite": "https://paintxpress-pfsx24x2x-afsumeem.vercel.app/",
+    "liveSite": "https://paintxpress.vercel.app/",
     "githubClient": "https://github.com/afsumeem/paint-xpress",
     "githubServer": "https://github.com/afsumeem/paintXpress-backend"
   },
@@ -21,7 +21,7 @@
     "name": "T-52 Mobile Zone",
     "technology": "React.JS, React Bootstrap, React-Router,CSS, Redux, Firebase Authentication, Node.JS, Express, MongoDB, Heroku",
     "desc": "A complete Mobile Phone selling website with google authentication. Users can order products and manage their orders. And dashboard is available on this website. Worked as a backend developer on this project.",
-    "liveSite": "https://mobile-zone-by-team-52.netlify.app/",
+    "liveSite": "https://t-52-mobile-zone.netlify.app/",
     "githubClient": "https://github.com/afsumeem/T-52-Mobile-Zone",
     "githubServer": "https://github.com/afsumeem/T-52-Mobile-Zone-server"
   },
