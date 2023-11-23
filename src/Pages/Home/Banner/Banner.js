@@ -10,9 +10,10 @@ import "./Banner.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Button, Container, Row } from "react-bootstrap";
-import bannerImg from "../../../image/Inkedmeem_LI.jpg";
+import bannerImg from "../../../image/meem2.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import Particles from "react-tsparticles";
+
 AOS.init({
   duration: 1000,
 });
@@ -128,7 +129,7 @@ const Banner = () => {
               <Button variant="none" className="mb-2 resume-button">
                 <a
                   className="text-decoration-none button-title"
-                  href="https://drive.google.com/uc?export=download&id=1YkE-tLSsm_fT6E9geCdMgtemNGFdc9yB"
+                  href="https://drive.google.com/uc?export=download&id=1XcGtGLFfNVXp8ytUNvVnmD_UvlApmEzv"
                   download
                 >
                   Download Resume
@@ -138,8 +139,21 @@ const Banner = () => {
 
               <div>
                 <a
+                  href="https://drive.google.com/file/d/1AEwjlZNZJTdXCEDBqiNfk1FjqCMtgLLp/view?usp=sharing"
+                  className="mx-2 fs-4 text-primary"
+                  target="blank"
+                  title="CV Link"
+                >
+                  <FontAwesomeIcon
+                    icon={faGoogleDrive}
+                    data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                  />
+                </a>
+                <a
                   href="https://github.com/afsumeem"
-                  className="me-2 fs-3 text-white"
+                  className="me-2 fs-4 text-white"
                   target="blank"
                   title="Github"
                 >
@@ -152,7 +166,7 @@ const Banner = () => {
                 </a>
                 <a
                   href="https://www.linkedin.com/in/afsanameem/"
-                  className="mx-2 fs-3 text-info"
+                  className="mx-1 fs-4 text-info"
                   target="blank"
                   title="LinkedIn"
                 >
@@ -165,7 +179,7 @@ const Banner = () => {
                 </a>
                 <a
                   href="https://web.facebook.com/afsana.meembd/"
-                  className="mx-2 fs-3 text-primary"
+                  className="mx-1 fs-4 text-primary"
                   target="blank"
                   title="Facebook"
                 >
@@ -177,8 +191,8 @@ const Banner = () => {
                   />
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1YkE-tLSsm_fT6E9geCdMgtemNGFdc9yB/view?usp=drive_link"
-                  className="mx-2 fs-3 text-primary"
+                  href="https://drive.google.com/file/d/1XcGtGLFfNVXp8ytUNvVnmD_UvlApmEzv/view?usp=sharing"
+                  className="mx-1 fs-4 text-primary"
                   target="blank"
                   title="Resume Link"
                 >
