@@ -139,7 +139,7 @@ const Banner = () => {
 
               <div>
                 <a
-                  href="https://drive.google.com/file/d/1AEwjlZNZJTdXCEDBqiNfk1FjqCMtgLLp/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1SZxsIU2nfJv0iImwIwCY1sTRR9nMqrD8/view?usp=sharing"
                   className="mx-2 fs-4 text-primary"
                   target="blank"
                   title="CV Link"
@@ -191,7 +191,7 @@ const Banner = () => {
                   />
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1XcGtGLFfNVXp8ytUNvVnmD_UvlApmEzv/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1o-McIc0tFqfdZsjGDjd2gaH0PLstbsIv/view?usp=sharing"
                   className="mx-1 fs-4 text-primary"
                   target="blank"
                   title="Resume Link"

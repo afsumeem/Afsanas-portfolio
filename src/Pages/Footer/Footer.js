@@ -63,7 +63,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://drive.google.com/file/d/1XcGtGLFfNVXp8ytUNvVnmD_UvlApmEzv/view?usp=sharing"
+            href="https://drive.google.com/file/d/1o-McIc0tFqfdZsjGDjd2gaH0PLstbsIv/view?usp=sharing"
             className="mx-2 fs-5 text-primary"
             target="blank"
             title="Resume Link"
@@ -86,7 +86,7 @@ const Footer = () => {
       </div>
       <div className="py-2  bg-dark">
         <p className="text-white text-opacity-50 m-0">
-          Copyright &copy;2023 All Rights Reserved | This Website is made with
+          Copyright &copy;2024 All Rights Reserved | This Website is made with
           &#x003C;&#10083;&#x003E; by Afsana Meem{" "}
         </p>
       </div>
